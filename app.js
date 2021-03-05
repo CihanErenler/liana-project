@@ -37,7 +37,7 @@ function removeSide() {
 // SUBSCRIBE PART
 const subInput = document.querySelector(".subscribe-input");
 const subBtn = document.querySelector(".sub-btn");
-const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,10}$/;
 
 subBtn.addEventListener("click", () => {
   if (subInput.value === "") {

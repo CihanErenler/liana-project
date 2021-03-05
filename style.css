@@ -8,7 +8,6 @@
   --border-color: #ddd;
   --black: #000;
   --white: #fff;
-  --letter-spacing: -0.24px;
   --select-display-hover: #fafafa;
   --darker: #212121;
   --light-gray: #f4f4f4;
@@ -17,6 +16,9 @@
   --thanks-border: #c1e6c1;
   --latest-bg: #eceeef;
   --latest-border: #e0e0e0;
+  --input-box-shadow: #a3ce9a;
+  /* feature */
+  --letter-spacing: -0.24px;
   --animation-speed: 0.6s;
 }
 
@@ -468,14 +470,14 @@ ul {
 .references-row .reference-box {
   width: 264px;
   height: 375px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--latest-border);
   border-radius: 5px;
   color: var(--text-color);
 }
 
 .references-row .reference-box .box-upper {
   height: 180px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--latest-border);
   display: flex;
   align-items: center;
 }
@@ -539,7 +541,7 @@ ul {
 
 .newsletter-group .subscribe-input:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #a3ce9a;
+  box-shadow: 0 0 0 3px var(--input-box-shadow);
   border-color: var(--primary);
 }
 
