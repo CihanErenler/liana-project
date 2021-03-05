@@ -1,0 +1,232 @@
+/* Ipad pro */
+@media (max-width: 1024px) {
+  #main-header {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero {
+    height: 478px;
+  }
+
+  .hero h1 {
+    text-align: center;
+  }
+
+  .image-banner-row {
+    flex-direction: column;
+  }
+
+  .banner-card {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  #ban-1,
+  #ban-2 {
+    background-position: center center;
+  }
+
+  #ban-3 {
+    background-position: center top;
+  }
+  .company-in-numbers .numbers-row {
+    width: 100%;
+  }
+
+  .latest-row {
+    flex-direction: column;
+  }
+
+  .latest-card {
+    width: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .references-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin: auto;
+  }
+
+  .references-row .reference-box {
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 834px) {
+  .references-row {
+    width: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .banner-card:last-child {
+    background-position: center top;
+  }
+
+  .company-in-numbers {
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .company-in-numbers .numbers-row {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .company-in-numbers .numbers-row .number-card {
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .company-in-numbers .numbers-row .number-card .icon-wrap img {
+    margin-right: 0;
+  }
+
+  .references-row {
+    width: 80%;
+  }
+}
+
+@media (max-width: 710px) {
+  .references-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .references-row .reference-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  .footer-upper {
+    flex-direction: column;
+  }
+
+  .footer-upper ul {
+    flex-direction: column;
+  }
+
+  .footer-upper ul li {
+    padding: 8px;
+    text-align: center;
+  }
+
+  .footer-upper ul li a {
+    margin: 0;
+  }
+
+  .footer-lower {
+    flex-direction: column;
+  }
+
+  .footer-lower .footer-lower-left {
+    flex-direction: column;
+  }
+
+  .lower-left-info {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .footer-lower-left .lower-right-info {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-lower-left .lower-right-info .contact-us {
+    margin: 0;
+  }
+}
+
+/* Smart Phone */
+@media (max-width: 480px) {
+  .hero {
+    background-attachment: scroll;
+  }
+
+  .hero h1 {
+    width: 350px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .image-banner-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-card {
+    width: 100%;
+    margin: 0 auto 10px;
+    height: 180px;
+  }
+
+  .references-row {
+    width: 100%;
+  }
+
+  .latest-row {
+    flex-direction: column;
+  }
+
+  .latest-card {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .latest-card .latest-content {
+    font-size: 18px;
+  }
+
+  .newsletter h2 {
+    font-size: 25px;
+  }
+
+  .newsletter p {
+    font-size: 14px;
+  }
+  .newsletter-group {
+    flex-direction: column;
+    height: 110px;
+    align-items: unset;
+    justify-content: unset;
+  }
+
+  .newsletter-group .subscribe-input {
+    margin-bottom: 10px;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .newsletter-group .subscribe-input::placeholder {
+    font-size: 16px;
+  }
+
+  .alert {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .thanks {
+    width: 300px;
+  }
+}
